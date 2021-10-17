@@ -4,7 +4,10 @@ body {
   font-family: "courier new", sans-serif;
   padding: 50px;
 }
-
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
 h1 {
   font-size: 3 em;
   color: whitesmoke;
