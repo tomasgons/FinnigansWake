@@ -45,3 +45,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     // start the text animation
     StartTextAnimation(0);
 });
+function pageScroll() {
+    window.scrollBy(0, 20);
+    scrolldelay = setTimeout(pageScroll, 10);
+}
+pageScroll();
